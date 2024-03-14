@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catchy Message</title>
+    
+    <!-- Add some styles for a flashy message -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .flashy-message {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            animation: flashAnimation 2s infinite alternate;
+        }
+
+        @keyframes flashAnimation {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0.5;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Display a flashy message for the visited customer -->
+<div class="flashy-message">
+    <h3>Hey there!</h3>
+     <p>
+      We noticed you've explored our amazing range of products. Ready to turn that window shopping into a cart-full of goodies? 
+      Dive back in, discover more, and treat yourself to something special at GroceryApp! 
+      <a href="http://127.0.0.1:5000/#/shop" style="color: white; text-decoration: underline;">Start shopping now</a>.
+    </p>
+</div>
+
+</body>
+</html>
